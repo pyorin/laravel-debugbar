@@ -9,7 +9,7 @@ def checkDebug(site):
             saveres = open('result.txt', 'a')
             saveres.write(site+'\n')
         else:
-            pass
+            print('[{}] > Not Vulnerable!'.format(site))
     except:
         pass
 
